@@ -1,0 +1,80 @@
+import './App.css';
+
+function App() {
+  return (
+    <div className="content">
+      <div/>
+      <div/>
+      <div/>
+      <div/>
+      <div/>
+      <div/>
+      <div/>
+      <div/>
+      <div/>
+      <div/>
+      <div/>
+      <div/>
+      <div/>
+      <div/>
+      <div/>
+      <div/>
+      <div/>
+      <div/>
+      <div/>
+      <div/>
+      <div/>
+      <div/>
+      <div/>
+      <div/>
+      <div/>
+      <div/>
+      <div/>
+      <div/>
+      <div/>
+      <div/>
+      <div/>
+      <div/>
+      <div/>
+      <div/>
+      <div/>
+      <div/>
+      <div/>
+      <div/>
+      <div/>
+      <div/>
+      <div/>
+      <div/>
+      <div/>
+      <div/>
+      <div/>
+      <div/>
+      <div/>
+      <div/>
+      <div/>
+      <div/>
+      <div/>
+      <div/>
+      <div/>
+      <div/>
+      <div/>
+      <div/>
+      <div/>
+      <div/>
+      <div/>
+      <div/>
+      <div/>
+      <div/>
+      <div/>
+        <div/>
+        <div/>
+        <div/>
+        <div/>
+        <div/>
+        <div/>
+        <div/>
+    </div>
+  );
+}
+
+export default App;
