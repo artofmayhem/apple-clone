@@ -1,14 +1,18 @@
 import "./App.css";
 // import VideoAsset from './assets/videoAsset.mp4'
-import { Header, Nav, HeroSection } from "./Components/index";
+import { Header, Nav, HeroSection, MacbookSection, ModularSection } from "./Components/index";
+
 
 function App() {
   return (
-    <div >
+    <section >
       <Nav />
       <Header />
       <HeroSection />
-    </div>
+      <MacbookSection />
+      <ModularSection />
+     
+    </section>
   );
 }
 

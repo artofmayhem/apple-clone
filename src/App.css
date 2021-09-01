@@ -59,7 +59,8 @@ h4 {
   color: #aaa;
   text-shadow: 0 0 .5rem black;
   font-stretch: narrower;
-  margin: 0vh 0
+  margin: 0vh 0;
+  font-weight: 600;
 }
 
 span {
@@ -164,30 +165,41 @@ div:hover {
 
 /* Video CSS */
 
-#videobackground {
-  width: 100%;
-  height: 100%;
-  background-color: black;
-  z-index: 1;
+#macbookbackground {
+  width: 100vw;
+  height: 105vh;
+  background-color: white;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  background-image: url(/src/assets/macbook-pro.jpg);
+  background-repeat: no-repeat;
+  /* background-attachment: fixed; */
+  background-position: center center;
+  background-size: cover;
+  margin: 10px 0;
 }
+
+.macbook-container {
+  width: 100vw;
+  text-shadow: 0 0 1rem black;
+  text-align: center;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10vh;
+}
+
+.button {
+  font-size: 1.5rem;
+}
+
 
 #videobackground iFrame {
-  width: 100%;
-  height: 100%;
-}
-
-#container {
-  height: 100%;
-  width: 100%;
-  font-family: sans-serif;
-  z-index: 2;
-  position: absolute;
-  top: 0;
-  left: 0;
-}
-
-#container > div {
-  background-color: rgba(255,255,255,0.5);
+  width: 100vw;
+  height: 100vh;
 }
 
 /* AppBar CSS */
@@ -213,4 +225,25 @@ div:hover {
   color: #ccc;
   font-weight: 400;
   font-stretch: narrower;
+}
+
+/* Modular section */
+
+
+.modular-section {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 80vh 80vh 80vh;
+  grid-gap: 10px;
+  grid-template-areas: "a b" ;
+  height: 130vh;
+  width: 100vw;
+  background-color: white;
+}
+
+.modular-section img {
+  width: 47vw;
+  height: 80vh
 }

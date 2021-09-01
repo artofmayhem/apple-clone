@@ -11,7 +11,7 @@ export default function HeroSection() {
       <section className={"button-section"}>
         <Link
           href={"https://www.apple.com/iphone-12-pro/"}
-          style={{ color: "#1976e4" }}
+          style={{ color: "#2196f3" }}
         >
           Learn More
           <ArrowForwardIosIcon
@@ -20,7 +20,7 @@ export default function HeroSection() {
         </Link>
         <Link
           href={"https://www.apple.com/us/shop/goto/buy_iphone/iphone_12_pro"}
-          style={{ color: "#1976d2" }}
+          style={{ color: "#2196f3" }}
         >
           Buy
           <ArrowForwardIosIcon

@@ -4,6 +4,14 @@ import ApplePng from './apple.png';
 import Iphones from './iphones.jpg';
 import Student from './student.jpg';
 import IphoneXR from './iphone.jpg';
+import AirPods from './AirPods.jpg';
+import AppleWatch from './apple-watch.jpg';
+import IpadPro from './ipad-pro.jpg';
+import AppStore from './appstore.jpg';
+import AppleFitness from './apple-fitness.png';
+import AppleOne from './apple-one.png';
+import Imac from './imac.jpg';
+
 
 export {
   AppleBG1,
@@ -12,4 +20,11 @@ export {
   Student,
   ApplePng,
   IphoneXR,
+  AirPods,
+  AppleWatch,
+  IpadPro,
+  AppStore,
+  AppleFitness,
+  AppleOne,
+  Imac
 }
