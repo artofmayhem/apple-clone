@@ -374,7 +374,13 @@ section img {
 }
 
 .bottom-navigation {
-  min-height: 80vh;
+  min-height: 120vh;
   width: 100vw;
-  background-color: '#000 !important'
+  color: #444;
+  padding: 0 0vw
+}
+
+.bottom-navigation p {
+  padding: 7vh 10vw;
+
 }
