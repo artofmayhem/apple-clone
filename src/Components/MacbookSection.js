@@ -17,8 +17,8 @@ export default function MacbookSection() {
               id={"video-player"}
               playsinline={true}
             /> */}
-      <section className="macbook-container">
-        <h2>Macbook Pro</h2>
+      <section className="macbook-container" >
+        <h2 style={{marginTop: '200px'}}>Macbook Pro</h2>
         <h3>Say hello.</h3>
         <h4>From $1299</h4>
         <h4>Now featuring the new, blazing fast M1 chip</h4>

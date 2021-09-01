@@ -19,8 +19,7 @@ body {
   -webkit-transition: all 5s;
 } */
 
-
-h1{
+h1 {
   color: #111;
   width: 100vw;
   margin-top: 100px;
@@ -36,7 +35,10 @@ h1:hover {
 
 h2 {
   font-size: 4em;
-  color: #FFF;
+  font-family: "Gotham A", "Gotham B";
+  font-style: normal;
+  font-weight: 500;
+  color: #fff;
   text-shadow: 0 0 1rem black;
   margin-top: 15vh;
   margin-bottom: 0;
@@ -46,18 +48,17 @@ h2 {
 
 h3 {
   font-size: 2em;
-  color: #FFF;
+  color: #fff;
   text-shadow: 0 0 1rem black;
   font-weight: 400;
   font-stretch: narrower;
-  margin: 10px auto
+  margin: 10px auto;
 }
-
 
 h4 {
   font-size: 1.2rem;
   color: #aaa;
-  text-shadow: 0 0 .5rem black;
+  text-shadow: 0 0 0.5rem black;
   font-stretch: narrower;
   margin: 0vh 0;
   font-weight: 600;
@@ -67,7 +68,7 @@ span {
   color: #666;
   margin-top: 200px;
   font-weight: 400;
-  font-size: .9em;
+  font-size: 0.9em;
 }
 
 .content {
@@ -80,10 +81,10 @@ span {
   transition: 3s;
   -webkit-transition: background-color 3s;
   height: 100vh;
-  width: 100vw
+  width: 100vw;
 }
 
- .content:hover {
+.content:hover {
   background-color: black;
   opacity: 0.8;
   transition: 5s;
@@ -123,7 +124,7 @@ span {
   flex-flow: column;
   justify-content: center;
   align-items: center;
-  margin-top: 50px
+  margin-top: 50px;
 }
 
 .button-section {
@@ -160,7 +161,6 @@ div:hover {
   background-image: url(/src/assets/AirPods.jpg);
   transition: 0.01s;
   -webkit-transition: all 0.01s;
-
 }
 
 /* Video CSS */
@@ -196,7 +196,6 @@ div:hover {
   font-size: 1.5rem;
 }
 
-
 #videobackground iFrame {
   width: 100vw;
   height: 100vh;
@@ -205,7 +204,7 @@ div:hover {
 /* AppBar CSS */
 .app-bar {
   color: #888;
-  font-size: .9em;
+  font-size: 0.9em;
   height: 45px;
   width: 100%;
   position: fixed;
@@ -216,7 +215,7 @@ div:hover {
   justify-content: center;
   align-items: center;
   grid-template-columns: 5vw 5vw 5vw 5vw 5vw 5vw 5vw 5vw 5vw 5vw 5vw;
-  grid-template-rows: 45px;
+  grid-template-rows: 45vh 45vh 45vh;
   grid-gap: 65px;
 }
 
@@ -229,21 +228,154 @@ div:hover {
 
 /* Modular section */
 
-
 .modular-section {
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 80vh 80vh 80vh;
+  grid-template-rows: 6vh 6vh 6vh;
   grid-gap: 10px;
-  grid-template-areas: "a b" ;
-  height: 130vh;
+  grid-template-areas: "a b";
+  height: 175vh;
   width: 100vw;
   background-color: white;
 }
 
-.modular-section img {
+/* .modular-section img {
   width: 47vw;
-  height: 90vh
+  height: 60vh;
+}
+
+.modular-section img:nth-child(5) {
+  height: auto;
+  width: 60vw;
+} */
+
+.modular-section-content-1 {
+  width: 47vw;
+  height: 60vh;
+  background-color: white;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: start;
+  align-items: flex-start;
+  background-image: url(/src/assets/applewatch.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 120%;
+  margin: 10px 0;
+}
+figure {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.watch-branding {
+  display: flex;
+  flex-direction: row;
+}
+
+figure h2 {
+  font-weight: 400;
+  font-size: 2.5rem;
+  margin: 0;
+}
+figure h4 {
+  color: #bb0000;
+}
+
+section figure {
+  margin-top: 100px;
+}
+
+section img {
+  width: 32px;
+  height: 40px;
+
+  margin-right: 5px;
+}
+
+.modular-section-content-2 {
+  width: 47vw;
+  height: 60vh;
+  background-color: white;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  background-image: url(/src/assets/ipadpro.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 100%;
+  margin: 10px 0;
+}
+
+.modular-section-content-3 {
+  width: 47vw;
+  height: 60vh;
+  background-color: white;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  /* align-items: center; */
+  background-image: url(/src/assets/imac.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 100%;
+  margin: 10px 0;
+  color: black;
+}
+
+.modular-section-content-3 h2 {
+  font-size: 5rem;
+  color: black;
+  text-shadow: none;
+  font-weight: 600 !important;
+}
+
+.modular-section-content-4 {
+  width: 47vw;
+  height: 60vh;
+  background-color: white;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  background-image: url(/src/assets/backtoschool.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 100%;
+  margin: 10px 0;
+}
+
+.modular-section-content-5 {
+  width: 47vw;
+  height: 60vh;
+  background-color: white;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  background-image: url(/src/assets/fitness.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 100%;
+  margin: 10px 0;
+}
+
+.modular-section-content-6 {
+  width: 47vw;
+  height: 60vh;
+  background-color: white;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  background-image: url(/src/assets/diversity1.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 120%;
+  margin: 10px 0;
 }

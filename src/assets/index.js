@@ -6,11 +6,12 @@ import Student from './student.jpg';
 import IphoneXR from './iphone.jpg';
 import AirPods from './AirPods.jpg';
 import AppleWatch from './apple-watch.jpg';
-import IpadPro from './ipad-pro.jpg';
+import IpadPro from './ipadpro.jpg';
 import AppStore from './appstore.jpg';
 import AppleFitness from './apple-fitness.png';
-import AppleOne from './apple-one.png';
+import BackToSchool from './backtoschool.jpg';
 import Imac from './imac.jpg';
+import WhiteAppleLogo from './white-apple-logo.png';
 
 
 export {
@@ -25,6 +26,7 @@ export {
   IpadPro,
   AppStore,
   AppleFitness,
-  AppleOne,
-  Imac
+  BackToSchool,
+  Imac,
+  WhiteAppleLogo
 }
