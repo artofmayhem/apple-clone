@@ -1,78 +1,13 @@
-import './App.css';
+import "./App.css";
+// import VideoAsset from './assets/videoAsset.mp4'
+import { Header, Nav, HeroSection } from "./Components/index";
 
 function App() {
   return (
-    <div className="content">
-      <div/>
-      <div/>
-      <div/>
-      <div/>
-      <div/>
-      <div/>
-      <div/>
-      <div/>
-      <div/>
-      <div/>
-      <div/>
-      <div/>
-      <div/>
-      <div/>
-      <div/>
-      <div/>
-      <div/>
-      <div/>
-      <div/>
-      <div/>
-      <div/>
-      <div/>
-      <div/>
-      <div/>
-      <div/>
-      <div/>
-      <div/>
-      <div/>
-      <div/>
-      <div/>
-      <div/>
-      <div/>
-      <div/>
-      <div/>
-      <div/>
-      <div/>
-      <div/>
-      <div/>
-      <div/>
-      <div/>
-      <div/>
-      <div/>
-      <div/>
-      <div/>
-      <div/>
-      <div/>
-      <div/>
-      <div/>
-      <div/>
-      <div/>
-      <div/>
-      <div/>
-      <div/>
-      <div/>
-      <div/>
-      <div/>
-      <div/>
-      <div/>
-      <div/>
-      <div/>
-      <div/>
-      <div/>
-      <div/>
-        <div/>
-        <div/>
-        <div/>
-        <div/>
-        <div/>
-        <div/>
-        <div/>
+    <div >
+      <Nav />
+      <Header />
+      <HeroSection />
     </div>
   );
 }

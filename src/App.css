@@ -1,9 +1,9 @@
 /* You can add global styles to this file, and also import other style files */
 body {
   background: white;
-  overflow: hidden;
-  transition: 5s;
-  -webkit-transition: all 5s;
+  overflow-x: hidden;
+  /* transition: 5s;
+  -webkit-transition: all 5s; */
   width: 100vw;
   height: auto;
   /*display: flex;*/
@@ -13,41 +13,71 @@ body {
   /*text-align: center;*/
 }
 
-body:hover {
+/* body:hover {
   background: black;
   transition: 5s;
   -webkit-transition: all 5s;
-}
+} */
 
 
-h1 {
+h1{
   color: #111;
-  font-family: "Landmark Shadow A", "Landmark Shadow B";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 10rem;
   width: 100vw;
-  background: black;
-  padding: 10vh;
+  margin-top: 100px;
   transition: 2s;
-  -webkit-transition: all 2s;
+  -webkit-transition: color 2s;
 }
 
 h1:hover {
   color: white;
   transition: 3s;
-  -webkit-transition: all 3s;
+  -webkit-transition: color 3s;
+}
+
+h2 {
+  font-size: 4em;
+  color: #FFF;
+  text-shadow: 0 0 1rem black;
+  margin-top: 15vh;
+  margin-bottom: 0;
+  font-weight: 400;
+  font-stretch: narrower;
+}
+
+h3 {
+  font-size: 2em;
+  color: #FFF;
+  text-shadow: 0 0 1rem black;
+  font-weight: 400;
+  font-stretch: narrower;
+  margin: 10px auto
+}
+
+
+h4 {
+  font-size: 1.2rem;
+  color: #aaa;
+  text-shadow: 0 0 .5rem black;
+  font-stretch: narrower;
+  margin: 0vh 0
+}
+
+span {
+  color: #666;
+  margin-top: 200px;
+  font-weight: 400;
+  font-size: .9em;
 }
 
 .content {
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
-  grid-template-columns: 10vw 10vw 10vw 10vw 10vw 10vw 10vw 10vw 10vw;
+  grid-template-columns: 10vw 10vw 10vw 10vw 10vw 10vw 10vw 10vw 10vw 10vw;
   grid-template-rows: 15vh 15vh 15vh 15vh 15vh 15vh 15vh 15vh 15vh;
   grid-template-areas: "a b c d" "e f g h";
-  /* transition: 5s;
-  -webkit-transition: background-color 5s; */
+  transition: 3s;
+  -webkit-transition: background-color 3s;
   height: 100vh;
   width: 100vw
 }
@@ -59,27 +89,128 @@ h1:hover {
   -webkit-transition: all 5s;
 }
 
+.header-content {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  color: black;
+  text-align: center;
+  transition: 3.5s;
+  -webkit-transition: color 3s;
+}
+
+/* .header-content h2 {
+  font-size: 3em;
+  margin-top: 140px;
+  font-weight: 600;
+  transition: 0.1s;
+  -webkit-transition: color 0.1s;
+} */
+
+.hero-content {
+  height: 80vh;
+  width: 100vw;
+  /* margin-top : -50vh; */
+  background-color: white;
+  background-image: url(/src/assets/iphone.jpg);
+  background-repeat: no-repeat;
+  background-position: center 20%;
+  background-size: cover;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px
+}
+
+.button-section {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 35vw;
+  background: transparent;
+  margin-top: 4vh;
+  font-size: 1.3rem;
+  font-weight: 400;
+}
+
 div {
   text-align: center;
   font-size: 1em;
   font-weight: bold;
   color: #fff;
   background-color: #222;
-  background-image: url(https://i.ytimg.com/vi/exfJf2YVdik/maxresdefault.jpg);
+  background-image: url(/src/assets/iphones.jpg);
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-position: center;
+  background-position: center center;
   background-size: cover;
-  transition: 4s;
+  transition: 3.5s;
   height: 15vh;
   width: 10vw;
-  -webkit-transition: all 4s;
+  -webkit-transition: all 3.5s;
 }
 
 div:hover {
   background-color: #222;
-  background-image: url(https://cdn.shopify.com/s/files/1/0873/8474/articles/image01_dd9b52c4-6aea-4107-a762-2657077bc99c_1600x.jpg?v=1466445080);
-  color: orangered;
+  background-image: url(/src/assets/AirPods.jpg);
   transition: 0.01s;
   -webkit-transition: all 0.01s;
+
+}
+
+/* Video CSS */
+
+#videobackground {
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  z-index: 1;
+}
+
+#videobackground iFrame {
+  width: 100%;
+  height: 100%;
+}
+
+#container {
+  height: 100%;
+  width: 100%;
+  font-family: sans-serif;
+  z-index: 2;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+#container > div {
+  background-color: rgba(255,255,255,0.5);
+}
+
+/* AppBar CSS */
+.app-bar {
+  color: #888;
+  font-size: .9em;
+  height: 45px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  align-items: center;
+  grid-template-columns: 5vw 5vw 5vw 5vw 5vw 5vw 5vw 5vw 5vw 5vw 5vw;
+  grid-template-rows: 45px;
+  grid-gap: 65px;
+}
+
+.app-bar a {
+  text-decoration: none;
+  color: #ccc;
+  font-weight: 400;
+  font-stretch: narrower;
 }
