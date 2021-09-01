@@ -3,6 +3,7 @@ import Nav from "./Nav";
 import HeroSection from "./HeroSection";
 import MacbookSection from "./MacbookSection";
 import ModularSection from "./ModularSection";
+import Footer from "./Footer";
 
 
 export {
@@ -10,5 +11,6 @@ export {
   Nav,
   HeroSection,
   MacbookSection,
-  ModularSection
+  ModularSection,
+  Footer
 }

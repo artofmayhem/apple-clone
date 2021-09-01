@@ -84,7 +84,7 @@ export default function ModularSection() {
           </Link>
           <Link
             href={"https://www.apple.com/apple-watch-series-6/"}
-            style={{ color: "#2196f3", paddingTop: '50px' }}
+            style={{ color: "#2196f3", paddingTop: '50px', fontSize:'20px' }}
           >
             Learn More
             <ArrowForwardIosIcon
@@ -94,8 +94,23 @@ export default function ModularSection() {
         </figure>
       </section>
       <section className="modular-section-content-4" />
-      <section className="modular-section-content-5" />
-      <section className="modular-section-content-6" />
+      <section className="modular-section-content-5">
+          <h2 style={{marginLeft: '-400px', marginTop: '50px', color: 'black', textShadow: 'none'}}>FITNESS+</h2>
+      </section>
+      <section className="modular-section-content-6">
+      <figure style={{textAlign: 'center', paddingBottom: '130px'}}>
+          <h1>Racial Equality and <br/> Justice Initiative</h1>
+          <Link
+            href={"https://www.apple.com/apple-watch-series-6/"}
+            style={{ color: "black", fontSize: '20px' }}
+          >
+            Learn More
+            <ArrowForwardIosIcon
+              style={{ marginLeft: "3px", fontSize: "15px" }}
+            />
+          </Link>
+        </figure>
+      </section>
     </section>
   );
 }

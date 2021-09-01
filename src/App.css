@@ -20,17 +20,14 @@ body {
 } */
 
 h1 {
-  color: #111;
+  color: yellow;
   width: 100vw;
   margin-top: 100px;
-  transition: 2s;
-  -webkit-transition: color 2s;
-}
-
-h1:hover {
-  color: white;
-  transition: 3s;
-  -webkit-transition: color 3s;
+  font-family: "Gotham A", "Gotham B";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 2.5rem;
+  text-shadow: 0 0 1rem #666;
 }
 
 h2 {
@@ -42,7 +39,7 @@ h2 {
   text-shadow: 0 0 1rem black;
   margin-top: 15vh;
   margin-bottom: 0;
-  font-weight: 400;
+  font-weight: 500;
   font-stretch: narrower;
 }
 
@@ -257,7 +254,7 @@ div:hover {
   background-color: white;
   display: flex;
   flex-flow: column nowrap;
-  justify-content: start;
+  justify-content: flex-start;
   align-items: flex-start;
   background-image: url(/src/assets/applewatch.jpg);
   background-repeat: no-repeat;
@@ -332,7 +329,7 @@ section img {
   font-size: 5rem;
   color: black;
   text-shadow: none;
-  font-weight: 600 !important;
+  font-weight: 500 !important;
 }
 
 .modular-section-content-4 {
@@ -354,10 +351,6 @@ section img {
   width: 47vw;
   height: 60vh;
   background-color: white;
-  display: flex;
-  flex-flow: column nowrap;
-  justify-content: center;
-  align-items: center;
   background-image: url(/src/assets/fitness.jpg);
   background-repeat: no-repeat;
   background-position: center center;
@@ -378,4 +371,10 @@ section img {
   background-position: center center;
   background-size: 120%;
   margin: 10px 0;
+}
+
+.bottom-navigation {
+  min-height: 80vh;
+  width: 100vw;
+  background-color: '#000 !important'
 }
