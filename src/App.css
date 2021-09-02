@@ -68,6 +68,10 @@ span {
   font-size: 0.9em;
 }
 
+hr {
+  width: 60%;
+  height: 1px;
+}
 .content {
   display: flex;
   flex-flow: row wrap;
@@ -376,12 +380,14 @@ section img {
 .bottom-navigation {
   min-height: 120vh;
   width: 100vw;
- 
   display: flex;
+  flex-direction: column;
+  text-align: center;
+  text-align: justify;
 }
 .bottom-navigation p {
-  /* padding: 7vh 10vw; */
   width: 60vw;
   margin: 50px auto;
- color: #888;
+  color: #888;
+
 }
