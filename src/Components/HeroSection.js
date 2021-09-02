@@ -4,7 +4,7 @@ import ArrowForwardIosIcon from "@material-ui/icons/ArrowForwardIos";
 export default function HeroSection() {
   return (
     <section className="hero-content">
-      <h2>iPhone 12</h2>
+      <h2>iPhone 12 Pro</h2>
       <h3>Blast past fast.</h3>
       <h4>From $41.62/mo. for 24 mo. ir $999 before trade-in</h4>
       <h4>Buy directly from Apple with special carrier offers</h4>
