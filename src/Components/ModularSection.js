@@ -133,7 +133,7 @@ export default function ModularSection() {
             >
               Learn More
               <ArrowForwardIosIcon
-                style={{ marginRight: "50px", fontSize: "15px" }}
+                style={{ marginRight: "30px", fontSize: "15px" }}
               />
             </Link>
             <Link
