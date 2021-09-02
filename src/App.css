@@ -75,8 +75,8 @@ span {
   grid-template-columns: 10vw 10vw 10vw 10vw 10vw 10vw 10vw 10vw 10vw 10vw;
   grid-template-rows: 15vh 15vh 15vh 15vh 15vh 15vh 15vh 15vh 15vh;
   grid-template-areas: "a b c d" "e f g h";
-  transition: 3s;
-  -webkit-transition: background-color 3s;
+  transition: 0.3s;
+  -webkit-transition: background-color 0.3s;
   height: 100vh;
   width: 100vw;
 }
@@ -376,11 +376,12 @@ section img {
 .bottom-navigation {
   min-height: 120vh;
   width: 100vw;
-  color: #444;
-  padding: 0 0vw
+ 
+  display: flex;
 }
-
 .bottom-navigation p {
-  padding: 7vh 10vw;
-
+  /* padding: 7vh 10vw; */
+  width: 60vw;
+  margin: 50px auto;
+ color: #888;
 }
