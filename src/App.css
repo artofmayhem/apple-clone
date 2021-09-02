@@ -204,8 +204,8 @@ div:hover {
 
 /* AppBar CSS */
 .app-bar {
-  color: #888;
-  font-size: 0.9em;
+  color: #888888;
+  font-size: 1em;
   height: 45px;
   width: 100%;
   position: fixed;
@@ -217,7 +217,7 @@ div:hover {
   align-items: center;
   grid-template-columns: 5vw 5vw 5vw 5vw 5vw 5vw 5vw 5vw 5vw 5vw 5vw;
   grid-template-rows: 45vh 45vh 45vh;
-  grid-gap: 65px;
+  grid-gap: 73px;
 }
 
 .app-bar a {
@@ -378,11 +378,10 @@ section img {
 }
 
 .bottom-navigation {
-  min-height: 120vh;
+  min-height: 140vh;
   width: 100vw;
   display: flex;
   flex-direction: column;
-  text-align: center;
   text-align: justify;
 }
 .bottom-navigation p {
