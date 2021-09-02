@@ -1,16 +1,11 @@
 import { WhiteAppleLogo } from "../assets/index";
 import { Link } from "@material-ui/core";
 import ArrowForwardIosIcon from "@material-ui/icons/ArrowForwardIos";
-import CallMadeIcon from '@material-ui/icons/CallMade';
+import CallMadeIcon from "@material-ui/icons/CallMade";
 
 export default function ModularSection() {
   return (
     <section className="modular-section">
-      {/* <img src={AppleWatch} alt={'apple watch'}/>
-      <img src={IpadPro} alt={'apple ipad pro'}/>
-      <img src={Imac} alt={'apple iMac'}/>
-      <img src={BackToSchool} alt={'back to school offer'}/>
-      <img src={AppleFitness} alt={'apple fitness'} style={{width: '85vw', margin: '50px auto'}}/> */}
       <section className="modular-section-content-1">
         <figure>
           <section className={"watch-branding"}>
@@ -113,7 +108,7 @@ export default function ModularSection() {
       </section>
       <section className="modular-section-content-4" />
       <section className="modular-section-content-5">
-        <section className={'fitness-content'}>
+        <section className={"fitness-content"}>
           <h2
             style={{
               color: "black",
@@ -141,9 +136,7 @@ export default function ModularSection() {
               style={{ color: "#2196f3" }}
             >
               Try it Free!
-              <CallMadeIcon
-                style={{ marginLeft: "3px", fontSize: "15px" }}
-              />
+              <CallMadeIcon style={{ marginLeft: "3px", fontSize: "15px" }} />
             </Link>
           </section>
         </section>

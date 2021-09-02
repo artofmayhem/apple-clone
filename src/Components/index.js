@@ -6,7 +6,6 @@ import ModularSection from "./ModularSection";
 import Footer from "./Footer";
 import AppleTv from "./AppleTv";
 
-
 export {
   Header,
   Nav,
@@ -14,5 +13,5 @@ export {
   MacbookSection,
   ModularSection,
   Footer,
-  AppleTv
-}
+  AppleTv,
+};
