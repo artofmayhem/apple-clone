@@ -1,6 +1,7 @@
 import { WhiteAppleLogo } from "../assets/index";
 import { Link } from "@material-ui/core";
 import ArrowForwardIosIcon from "@material-ui/icons/ArrowForwardIos";
+import CallMadeIcon from '@material-ui/icons/CallMade';
 
 export default function ModularSection() {
   return (
@@ -32,7 +33,7 @@ export default function ModularSection() {
               />
             </Link>
             <Link
-              href={"https://www.apple.com/apple-watch-series-6/"}
+              href={"https://www.apple.com/us/shop/goto/apple_watch"}
               style={{ color: "#2196f3" }}
             >
               Buy
@@ -51,7 +52,7 @@ export default function ModularSection() {
           </h4>
           <section className={"button-section"} style={{ width: "140%" }}>
             <Link
-              href={"https://www.apple.com/apple-watch-series-6/"}
+              href={"https://www.apple.com/ipad/"}
               style={{ color: "#2196f3" }}
             >
               Learn More
@@ -60,7 +61,7 @@ export default function ModularSection() {
               />
             </Link>
             <Link
-              href={"https://www.apple.com/apple-watch-series-6/"}
+              href={"https://www.apple.com/us/shop/goto/ipad_pro/select"}
               style={{ color: "#2196f3" }}
             >
               Buy
@@ -72,19 +73,36 @@ export default function ModularSection() {
         </figure>
       </section>
       <section className="modular-section-content-3">
-        <figure style={{textAlign: 'center', paddingBottom: '130px'}}>
+        <figure style={{ textAlign: "center", paddingBottom: "130px" }}>
           <h2 style={{ marginTop: "100px" }}>iMac</h2>
-          <h3 style={{ marginTop: "0px", color: "black", textShadow: 'none', fontWeight: 600 }}>Say hello.</h3>
-          <h4 style={{ marginTop: "5px", color: "black", textShadow: 'none' }}>From $1299 </h4>
+          <h3
+            style={{
+              marginTop: "0px",
+              color: "black",
+              textShadow: "none",
+              fontWeight: 600,
+            }}
+          >
+            Say hello.
+          </h3>
+          <h4 style={{ marginTop: "5px", color: "black", textShadow: "none" }}>
+            From $1299{" "}
+          </h4>
           <Link
             href={"https://www.apple.com/apple-watch-series-6/"}
-            style={{ color: "white", backgroundColor: "#2196f3", padding: '15px 30px', borderRadius: '50px', margin: '10px ' }}
+            style={{
+              color: "white",
+              backgroundColor: "#2196f3",
+              padding: "15px 30px",
+              borderRadius: "50px",
+              margin: "10px ",
+            }}
           >
             Buy
           </Link>
           <Link
             href={"https://www.apple.com/apple-watch-series-6/"}
-            style={{ color: "#2196f3", paddingTop: '50px', fontSize:'20px' }}
+            style={{ color: "#2196f3", paddingTop: "50px", fontSize: "20px" }}
           >
             Learn More
             <ArrowForwardIosIcon
@@ -95,14 +113,49 @@ export default function ModularSection() {
       </section>
       <section className="modular-section-content-4" />
       <section className="modular-section-content-5">
-          <h2 style={{marginLeft: '-400px', marginTop: '50px', color: 'black', textShadow: 'none'}}>FITNESS+</h2>
+        <section className={'fitness-content'}>
+          <h2
+            style={{
+              color: "black",
+              textShadow: "none",
+            }}
+          >
+            FITNESS+
+          </h2>
+          <h4 style={{ textShadow: "none" }}>
+            The first fitness service powered by Apple Watch.
+          </h4>
+          <h4 style={{ textShadow: "none" }}>Try if for 1 month free.</h4>
+          <section className={"button-section2"}>
+            <Link
+              href={"https://www.apple.com/apple-watch-series-6/"}
+              style={{ color: "#2196f3" }}
+            >
+              Learn More
+              <ArrowForwardIosIcon
+                style={{ marginRight: "50px", fontSize: "15px" }}
+              />
+            </Link>
+            <Link
+              href={"https://www.apple.com/us/shop/goto/apple_watch"}
+              style={{ color: "#2196f3" }}
+            >
+              Try it Free!
+              <CallMadeIcon
+                style={{ marginLeft: "3px", fontSize: "15px" }}
+              />
+            </Link>
+          </section>
+        </section>
       </section>
       <section className="modular-section-content-6">
-      <figure style={{textAlign: 'center', paddingBottom: '130px'}}>
-          <h1>Racial Equality and <br/> Justice Initiative</h1>
+        <figure style={{ textAlign: "center", paddingBottom: "130px" }}>
+          <h1>
+            Racial Equality and <br /> Justice Initiative
+          </h1>
           <Link
             href={"https://www.apple.com/apple-watch-series-6/"}
-            style={{ color: "black", fontSize: '20px' }}
+            style={{ color: "black", fontSize: "20px" }}
           >
             Learn More
             <ArrowForwardIosIcon

@@ -25,7 +25,7 @@ export default function MacbookSection() {
         <section className={"button-section"}>
         <Link
           className={"button"}
-          href={"https://www.apple.com/iphone-12-pro/"}
+          href={"https://www.apple.com/mac/"}
           style={{ color: "#2196f3" }}
         >
           Learn More
@@ -35,7 +35,7 @@ export default function MacbookSection() {
         </Link>
         <Link
           className={"button"}
-          href={"https://www.apple.com/us/shop/goto/buy_iphone/iphone_12_pro"}
+          href={"https://www.apple.com/mac/"}
           style={{ color: "#2196f3" }}
         >
           Buy

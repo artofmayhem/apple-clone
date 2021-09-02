@@ -4,6 +4,7 @@ import HeroSection from "./HeroSection";
 import MacbookSection from "./MacbookSection";
 import ModularSection from "./ModularSection";
 import Footer from "./Footer";
+import AppleTv from "./AppleTv";
 
 
 export {
@@ -12,5 +13,6 @@ export {
   HeroSection,
   MacbookSection,
   ModularSection,
-  Footer
+  Footer,
+  AppleTv
 }
